@@ -1,27 +1,27 @@
-# Placekitten helper for CodeIgniter
+# Adoptkitten helper for CodeIgniter
 
 This helper allows you to add placeholder images in your applications. It is extremely useful when prototyping the layout of the page.
 
-## Thanks [edmundask](https://github.com/edmundask) he made the original placeholder helper for codeigniter, has you can see this is just a fork of his code. So if you're looking for images other than kittens go to his repository.
+## Thanks to [edmundask](https://github.com/edmundask) he made the original placeholder helper for codeigniter, has you can see this is just a fork of his code. So if you're looking for images other than kittens go to his repository.
 
 # Usage
 
-`placekitten(width, height);`
+`adoptkitten(width, height);`
 
 The helper uses [placekitten.com](http://placekitten.com) service.
 
 ## Examples
 
-- 300px square: `placekitten(300);`.
-- 200x100px rectangular: `placekitten(200, 100);`
+- 300px square: `adoptkitten(300);`.
+- 200x100px rectangular: `adoptkitten(200, 100);`
 
 You can also pass in an array:
 
-`placeholder(array('width' => 100, 'height' => 100));`
+`adoptkitten(array('width' => 100, 'height' => 100));`
 
 # COPYRIGHT
 
-Copyright (c) 2012 Edmundas Kondrašovas
+Copyright (c) 2012 Marco Monteiro
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

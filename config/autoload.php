@@ -7,4 +7,4 @@
  * @license		        http://www.opensource.org/licenses/MIT
  */
 
-$autoload['helper'] = array('placekitten');
+$autoload['helper'] = array('adoptkitten');

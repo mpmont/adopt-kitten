@@ -1,19 +1,16 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 /**
- * Generates a placekitten image
+ * Generates a adoptkitten image
  *
  * @access	public
  * @param 	mixed  	width as integer or array of params
  * @param 	integer	height
- * @param 	string 	text
- * @param 	string 	background color
- * @param 	string 	foreground color
  * @return	string 	HTML
  */
-if(!function_exists('placekitten'))
+if(!function_exists('adoptkitten'))
 {
-	function placekitten($width, $height = NULL)
+	function adoptkitten($width, $height = NULL)
 	{
 		$params = array();
 
@@ -31,4 +28,4 @@ if(!function_exists('placekitten'))
 	}
 }
 
-/* End of file placekitten_helper.php */
+/* End of file adoptkitten_helper.php */
